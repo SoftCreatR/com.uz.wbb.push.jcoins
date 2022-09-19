@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
+	<import>
+		<eventlistener name="PushThreadJCoinsAfter">
+			<eventclassname>wbb\action\PushThreadAddAction</eventclassname>
+			<eventname>pushThreadAfter</eventname>
+			<listenerclassname>wbb\system\event\listener\PushThreadJCoinsAfterListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		
+		<eventlistener name="PushThreadJCoinsBefore">
+			<eventclassname>wbb\action\PushThreadAddAction</eventclassname>
+			<eventname>pushThreadBefore</eventname>
+			<listenerclassname>wbb\system\event\listener\PushThreadJCoinsBeforeListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		
+		<eventlistener name="PushThreadJCoinsCheck">
+			<eventclassname>wbb\system\user\push\PushThreadHandler</eventclassname>
+			<eventname>canPushThread</eventname>
+			<listenerclassname>wbb\system\event\listener\PushThreadJCoinsCheckListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+	</import>
+</data>

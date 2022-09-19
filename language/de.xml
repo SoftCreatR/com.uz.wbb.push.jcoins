@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+	<category name="wbb.thread">
+		<item name="wbb.thread.threadPush.jcoins"><![CDATA[Die Kosten für das Pushen betragen {#$threadPushJCoins} {JCOINS_NAME}.]]></item>
+		<item name="wbb.thread.threadPush.jcoins.notEnough"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} kein ausreichendes {JCOINS_NAME}-Guthaben. Die Kosten für das Pushen betragen {#$threadPushJCoins} {JCOINS_NAME}.]]></item>
+		
+	</category>
+	
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.category.com.uz.wbb.push"><![CDATA[Themen pushen]]></item>
+		<item name="wcf.jcoins.statement.title.com.uz.wbb.push"><![CDATA[Thema gepusht]]></item>
+		<item name="wcf.jcoins.statement.reason.com.uz.wbb.push"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Du hast{else}Sie haben{/if} {if $statement->getObject()->threadID}das Thema „{$statement->getObject()->getTitle()}“ gepusht.{else}ein Thema gepusht, das mittlerweile gelöscht ist.{/if}]]></item>
+	</category>
+</language>
