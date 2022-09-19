@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wbb.thread">
-		<item name="wbb.thread.threadPush.jcoins"><![CDATA[The cost for pushing is {#$threadPushJCoins} {JCOINS_NAME}.]]></item>
-		<item name="wbb.thread.threadPush.jcoins.notEnough"><![CDATA[You have not enough {JCOINS_NAME}. The cost for pushing is {#$threadPushJCoins} {JCOINS_NAME}.]]></item>
-		
-	</category>
-	
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.category.com.uz.wbb.push"><![CDATA[Push Threads pushen]]></item>
-		<item name="wcf.jcoins.statement.title.com.uz.wbb.push"><![CDATA[Thread pushed]]></item>
-		<item name="wcf.jcoins.statement.reason.com.uz.wbb.push"><![CDATA[You have pushed {if $statement->getObject()->threadID}your thread “{$statement->getObject()->getTitle()}”.{else]a thread of yours, which was deleted in the meantime.{/if}]]></item>
-	</category>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+    <category name="wbb.thread">
+        <item name="wbb.thread.threadPush.jcoins"><![CDATA[The cost for pushing is {#$threadPushJCoins} {JCOINS_NAME}.]]></item>
+        <item name="wbb.thread.threadPush.jcoins.notEnough"><![CDATA[You have not enough {JCOINS_NAME}. The cost for pushing is {#$threadPushJCoins} {JCOINS_NAME}.]]></item>
+
+    </category>
+
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.category.com.uz.wbb.push"><![CDATA[Push Threads pushen]]></item>
+        <item name="wcf.jcoins.statement.title.com.uz.wbb.push"><![CDATA[Thread pushed]]></item>
+        <item name="wcf.jcoins.statement.reason.com.uz.wbb.push"><![CDATA[You have pushed {if $statement->getObject()->threadID}your thread “{$statement->getObject()->getTitle()}”.{else]a thread of yours, which was deleted in the meantime.{/if}]]></item>
+    </category>
 </language>
