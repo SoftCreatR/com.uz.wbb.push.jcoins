@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
-	<import>
-		<type>
-			<name>com.uz.wbb.push</name>
-			<definitionname>de.wcflabs.jcoins.statement.object</definitionname>
-			<defaultAmount>0</defaultAmount>
-			<retractable>0</retractable>
-			<classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
-			<category>com.uz.wbb.push</category>
-			<objectClassName>\wbb\data\thread\Thread</objectClassName>
-		</type>
-	</import>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/objectType.xsd">
+    <import>
+        <type>
+            <name>com.uz.wbb.push</name>
+            <definitionname>de.wcflabs.jcoins.statement.object</definitionname>
+            <defaultAmount>0</defaultAmount>
+            <retractable>0</retractable>
+            <classname>\wcf\system\jcoins\statement\DefaultJCoinsStatement</classname>
+            <category>com.uz.wbb.push</category>
+            <objectClassName>\wbb\data\thread\Thread</objectClassName>
+        </type>
+    </import>
 </data>
